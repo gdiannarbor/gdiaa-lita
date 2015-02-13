@@ -6,7 +6,7 @@ Lita.configure do |config|
   config.adapters.slack.token = "xoxb-3717898382-HPxUxXzla4Lxe9iMtIjCpxc7"
 
   config.handlers.karma.cooldown = 300
-  config.handlers.google_images.safe_search = :on
+  config.handlers.google_images.safe_search = :active
 
   config.robot.locale = :en
 
