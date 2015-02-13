@@ -5,3 +5,4 @@ gem "lita-slack"
 
 gem "lita-google-images"
 gem "lita-karma"
+gem "lita-catgif"

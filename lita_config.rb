@@ -8,7 +8,7 @@ Lita.configure do |config|
   config.handlers.karma.cooldown = 300
   config.handlers.google_images.safe_search = :active
 
-  config.redis[:host] = ENV["REDISTOGO_URL"]
+  config.redis.url = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
 
   config.robot.locale = :en
