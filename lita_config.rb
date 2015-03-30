@@ -3,7 +3,7 @@ Lita.configure do |config|
   config.robot.mention_name = "botgirl"
 
   config.robot.adapter = :slack
-  config.adapters.slack.token = "xoxb-3717898382-HPxUxXzla4Lxe9iMtIjCpxc7"
+  config.adapters.slack.token = "xoxb-3717898382-q14qqQMNjbmjy45BP48kz53L"
 
   config.handlers.karma.cooldown = 300
   config.handlers.google_images.safe_search = :active
