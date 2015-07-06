@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
 gem "lita"
-gem "lita-slack"
+gem "lita-slack", '>= 1.2.0'
 
 gem "lita-google-images"
-gem "lita-karma"
+gem "lita-karma", '~> 3.0.2'
 gem "lita-slack-karma-sync"
 gem "lita-catgif"
 gem "lita-catfacts"
@@ -17,6 +17,5 @@ gem "lita-giphy"
 gem "lita-pugbomb"
 gem "lita-y"
 gem "lita-rules"
-gem "lita-nope-octopus"
 gem "lita-high-five"
 gem "lita-applause"
