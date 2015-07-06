@@ -101,10 +101,10 @@ DEPENDENCIES
   lita-giphy
   lita-google-images
   lita-high-five
-  lita-karma (~> 3.0.2)
+  lita-karma
   lita-pugbomb
   lita-rules
   lita-shipit
-  lita-slack (>= 1.2.0)
+  lita-slack
   lita-slack-karma-sync
   lita-y

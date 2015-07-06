@@ -3,10 +3,10 @@ source "https://rubygems.org"
 ruby "2.1.5"
 
 gem "lita"
-gem "lita-slack", '>= 1.2.0'
+gem "lita-slack"
 
 gem "lita-google-images"
-gem "lita-karma", '~> 3.0.2'
+gem "lita-karma"
 gem "lita-slack-karma-sync"
 gem "lita-catgif"
 gem "lita-catfacts"
