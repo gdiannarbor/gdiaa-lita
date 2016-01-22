@@ -69,6 +69,8 @@ GEM
       lita (>= 4.1)
     lita-high-five (0.0.1)
       lita (>= 3.0)
+    lita-httpcat (0.1.0)
+      lita (>= 4.6)
     lita-karma (3.0.2)
       lita (>= 4.0)
     lita-literally-lita (0.1.0)
@@ -165,6 +167,7 @@ DEPENDENCIES
   lita-greet
   lita-hashtag
   lita-high-five
+  lita-httpcat
   lita-karma
   lita-literally-lita
   lita-manatee

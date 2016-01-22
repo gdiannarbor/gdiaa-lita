@@ -46,6 +46,4 @@ Lita.configure do |config|
   end
 
   config.handlers.slack_karma_sync.user_term_normalizer = normalized_karma_user_term
-
-  config.handlers.openweathermap.metric = "metric" # 'metric' or 'imperial'
 end

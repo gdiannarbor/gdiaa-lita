@@ -9,7 +9,6 @@ Here are a few example commands you can use:
 `botgirl crazycaps "{your text}"`
 `botgirl manatee`
 `botgirl octocat me`
-`botgirl weather ann arbor, michigan`
 `botgirl should I {first_thing} or {second_thing}?`
 `botgirl have a snack`
 `botgirl who is {name}'s father?`
