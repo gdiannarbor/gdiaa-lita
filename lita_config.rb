@@ -4,7 +4,7 @@ Lita.configure do |config|
   config.robot.mention_name = "botgirl"
 
   config.robot.adapter = :slack
-  config.adapters.slack.token = "xoxb-3717898382-q14qqQMNjbmjy45BP48kz53L"
+  config.adapters.slack.token = ENV["SLACK_TOKEN"]
 
   config.redis.url = ENV["REDISTOGO_URL"]
   config.http.port = ENV["PORT"]
@@ -46,4 +46,6 @@ Lita.configure do |config|
   end
 
   config.handlers.slack_karma_sync.user_term_normalizer = normalized_karma_user_term
+
+  config.handlers.openweathermap.metric = "metric" # 'metric' or 'imperial'
 end
