@@ -26,7 +26,7 @@ Lita.configure do |config|
   # config.redis.host = "127.0.0.1"
   # config.redis.port = 1234
 
-  config.handlers.google_images.safe_search = :active
+  config.handlers.google_images.safe_search = :medium
   config.handlers.giphy.api_key = "dc6zaTOxFJmzC"
 
   normalized_karma_user_term = ->(user_id, user_name) {
