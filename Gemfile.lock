@@ -61,7 +61,7 @@ GEM
       lita (>= 2.0)
     lita-giphy (1.0.4)
       lita (>= 2.0)
-    lita-google-images (3.0.0)
+    lita-google-images (2.0.0)
       lita (>= 4.0)
     lita-hashtag (0.1.0)
       lita (>= 4.1)
